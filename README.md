@@ -31,9 +31,9 @@ python test_classification.py --use_uniform_sample --log_dir GAM_cls_ssg_fps
 | PointNet2 (Official) | 91.9 |
 | PointNet2_SSG (Pytorch without normal) |  92.2|
 | PointNet2_SSG (Pytorch with normal) |  92.4|
-| PointNet2_MSG (Pytorch without normal) |  **92.8**|
+| GAM_SSG (Pytorch without normal) |  **92.8**|
 | PointNet2_MSG (Pytorch with normal) |  92.8|
-| PointNet2_MSG (Pytorch with normal) |  **93.3**|
+| GAM_MSG (Pytorch with normal) |  **93.3**|
 
 ## Part Segmentation (ShapeNet)
 ### Data Preparation
@@ -70,6 +70,6 @@ python test_semseg.py --log_dir pointnet2_sem_seg --test_area 5 --visual
 ### Performance
 |Model  | mIoU | OA | mAcc |
 |--|--|--|--|
-| PointNet2_ssg (Pytorch) | 54.5 | 81.0 | 67.1 |
-| PointNet2_ssg (Pytorch) | **56.6** | **81.8**| **71.7**|
+| PointNet2 | 54.5 | 81.0 | 67.1 |
+| GAM | **56.6** | **81.8**| **71.7**|
 
