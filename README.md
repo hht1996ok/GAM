@@ -15,7 +15,6 @@
 torch==1.9.0
 cuda==11.1.0
 cudnn==8.2.1
-
 ```
 
 ## Classification (ModelNet40)
