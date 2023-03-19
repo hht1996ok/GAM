@@ -10,6 +10,14 @@
 }
 ```
 
+## Environment
+```
+torch==1.9.0
+cuda==11.1.0
+cudnn==8.2.1
+
+```
+
 ## Classification (ModelNet40)
 ### Data Preparation
 Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `data/modelnet40_normal_resampled/`.
