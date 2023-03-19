@@ -23,7 +23,7 @@ python test_classification.py --use_normals --log_dir GAM_cls_ssg_normal
 ## e.g., pointnet2_ssg with uniform sampling
 python train_classification.py --model GAM_cls_ssg --use_uniform_sample --log_dir GAM_cls_ssg_fps
 python test_classification.py --use_uniform_sample --log_dir GAM_cls_ssg_fps
-
+```
 
 ### Performance
 | Model | Accuracy |
