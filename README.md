@@ -4,7 +4,6 @@
 ```
 @inproceedings{hu2023gam,
   title={GAM : Gradient Attention Module of Optimization for Point Clouds Analysis},
-  author={Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip HS and Koltun, Vladlen},
   author={Hu, Haotian and Wang Fanyi and Su Jingwen and Zhou Hongtao and Wang Yaonong and Hu Laifeng and Zhang Yanhao and Zhang Zhiwang}
   booktitle={Association for the Advance of Artificial Intelligence, AAAI},
   year={2023}
